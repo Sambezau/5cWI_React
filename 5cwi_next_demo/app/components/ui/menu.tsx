@@ -18,5 +18,5 @@ export default function Menu({}: Props) {
             </li>
         </ul>
     </div>
-  )
+  ) 
 }
