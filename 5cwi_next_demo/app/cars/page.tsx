@@ -8,29 +8,32 @@ const cars: Car[] = [
     {
         name: "Audi",
         type: "RS3",
-        color: "black",
+        color: "blue",
         motor: {
-            serialNumber: 1234,
+            serialNumber: 2193,
             hp: 450,
-        }
+        },
+        image: "/images/audi.jpg"
     },
     {
         name: "BWM",
         type: "M3 competition",
-        color: "green",
+        color: "grey",
         motor: {
-            serialNumber: 1234,
+            serialNumber: 4598,
             hp: 500,
-        }
+        },
+        image: "/images/bmw.jpg"
     },
     {
         name: "VW",
         type: "Passat",
         color: "grey",
         motor: {
-            serialNumber: 1234,
+            serialNumber: 7753,
             hp: 1000,
-        }
+        },
+        image: "/images/vw.jpg"
     }
 ];
 
