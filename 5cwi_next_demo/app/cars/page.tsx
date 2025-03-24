@@ -61,7 +61,7 @@ export default function Cars({ }: Props) {
     };
 
     return (
-        <div className="p-4">
+        <div className="p-4 ">
             <div className="mb-4">
                 <button 
                     onClick={toggleSort}

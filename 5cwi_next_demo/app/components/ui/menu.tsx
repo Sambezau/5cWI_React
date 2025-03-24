@@ -5,7 +5,7 @@ type Props = {}
 
 export default function Menu({}: Props) {
   return (
-    <div className='flex justify-center'>
+    <div className='flex justify-center bg-gray-500 rounded-2xl m-4'>
         <ul className='flex p-4'>
             <li className='p-4 hover:bg-blue-200 font-bold'>
                 <Link href="/">Home</Link>
