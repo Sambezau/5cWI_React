@@ -8,7 +8,7 @@ type Props = { car: Car }
 export default function Card({ car }: Props) {
     const [isActive, setIsActive] = useState(false);
     return (
-        <div className={`p-4 shadow hover:cursor-pointer hover:bg-amber-200 ${isActive ? "bg-amber-500" : "bg-blue-200"} border-4 border-gray-800 relative`} onClick={() => {
+        <div className={`p-4 shadow hover:cursor-pointer hover:bg-amber-200 ${isActive ? "bg-amber-500" : "bg-gray-500"} border-4 border-gray-800 relative`} onClick={() => {
             setIsActive(!isActive);
         }}>
             <div className="absolute top-2 right-2 w-12 h-12">
